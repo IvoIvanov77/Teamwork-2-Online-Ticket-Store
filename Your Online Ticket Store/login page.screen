@@ -1,0 +1,91 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="31a979d4-cbb6-4e7f-a9ff-697a4977ff6b">
+    <Page.Content>
+        <Content Width="1366" Height="768" Id="45f0e16e-7652-424d-89da-e74d29facdb3">
+            <Content.Layers>
+                <Layer Id="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e011a2d4-8cf2-4408-87a6-13d6d35bb5d8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1366,768" Id="a4398867-988a-441f-8bf5-30ae762e4977" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="d7f4439d-5d3c-4e26-b946-926b14c4ef50" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 12:09:16" Id="7c4435f6-0702-4a34-a0d8-22bd642620d8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c965d879-352b-4aeb-9bf4-79e7b6fa6a23">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Title RichText="Your online ticket store!" FontSize="48" Id="9b5ef3ee-3a04-4dec-ba59-eae00603461c" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Link Text="Login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="8ca34269-45b2-4794-b6ef-b9101fbf4ffe" Panel.Bounds="1280,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Link Text="Register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="2d3b6ed7-b72e-4d9e-a667-1e719057c3c6" Panel.Bounds="1173,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="6212cdab-ecbb-4c2c-a3f0-013b283bc526" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="aa7ad985-9772-4709-b054-4c3a3e12b007" Panel.Bounds="247,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-google-plus-square" Id="b91dcbdc-73e2-44d9-a7ee-ef1ce7326954" Panel.Bounds="449,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="6d11c8d7-31fc-47a9-a7cf-d350b776bb62" Panel.Bounds="551,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="03053fa0-2389-475e-9746-89301a088450" Panel.Bounds="348,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-amex" Id="d67678a2-d85b-4a79-bd0c-dad483569a65" Panel.Bounds="1299,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-mastercard" Id="5ca06891-9f75-46fa-bf67-03f2c7e70fd1" Panel.Bounds="1251,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-visa" Id="9402b9c2-2559-4b9e-bd27-bd985ae73186" Panel.Bounds="1203,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a8e6d90-27f3-49aa-81b1-d14ba6b0c81f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-paypal" Id="752e3d95-22d0-4f5b-a3fc-efc4e3a143ce" Panel.Bounds="1155,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
