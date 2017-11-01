@@ -1,7 +1,8 @@
 # Online Ticket Store
 
 This is the second assignment in the Teamwork Course @ SoftUni. 
-Topic: Requirements and Prototyping. 
+
+Topic: **Requirements and Prototyping.**
 
 ## Contributors: 
   + Ivaylo Ivanov
