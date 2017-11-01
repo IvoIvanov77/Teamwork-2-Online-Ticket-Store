@@ -25,17 +25,41 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Title RichText="Your online ticket store!" FontSize="48" Id="c1877f22-ad97-4722-9225-07ff73352d44" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Your online ticket store!" FontSize="48" Id="c1877f22-ad97-4722-9225-07ff73352d44" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/Home Page.screen" Created="11/01/2017 14:25:32" Id="9630926f-510d-4e4e-9d68-86c3c1fbea7b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Title.Click>
+                                </Title>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="4877b4cd-6191-4874-a413-20630af43bb4" Panel.Bounds="1256,35,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="4877b4cd-6191-4874-a413-20630af43bb4" Panel.Bounds="1256,35,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/login page.screen" Created="11/01/2017 14:26:13" Id="00302be0-73b4-403c-bc01-0cb32627f489">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="6fcbf6eb-ec02-4349-94b9-092ce2285eb1" Panel.Bounds="1160,35,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="6fcbf6eb-ec02-4349-94b9-092ce2285eb1" Panel.Bounds="1160,35,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/register page.screen" Created="11/01/2017 14:25:56" Id="f66da269-5576-4c28-aa88-6144ebc14071">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
@@ -43,44 +67,28 @@
                                 <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="8c62c9d8-b07e-4c9b-bbd6-6135cb7ab512" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                        <Add Property="Panel.Children" Before="b77c4759-41d7-4d20-b2a0-9b236cafa6e1" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="8834a4a4-d3a5-47ce-94f4-15202ee07d61" Panel.Bounds="247,694,32{5,2147483647},32{5,2147483647}" />
+                                <Group GroupName="Group" Id="35bd59ef-3734-473e-8e00-be967f7065ce" Panel.Bounds="247,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="8834a4a4-d3a5-47ce-94f4-15202ee07d61" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-google-plus-square" Id="b77c4759-41d7-4d20-b2a0-9b236cafa6e1" Panel.Bounds="202,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-instagram" Id="e00e6d43-0ea0-4e46-9967-7618267cf598" Panel.Bounds="304,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-twitter-square" Id="f900eb1a-bb83-4280-8a79-dfd109f7250d" Panel.Bounds="101,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                        <Add Property="Panel.Children" Before="0b9d05d4-2463-40e3-8dbd-d617db3f70ee" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Icon CatalogId="fa-google-plus-square" Id="b77c4759-41d7-4d20-b2a0-9b236cafa6e1" Panel.Bounds="449,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-instagram" Id="e00e6d43-0ea0-4e46-9967-7618267cf598" Panel.Bounds="551,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-twitter-square" Id="f900eb1a-bb83-4280-8a79-dfd109f7250d" Panel.Bounds="348,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-cc-amex" Id="0da951e7-65fe-4bad-825e-9f46badaae46" Panel.Bounds="1299,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-cc-mastercard" Id="0b9d05d4-2463-40e3-8dbd-d617db3f70ee" Panel.Bounds="1251,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-cc-visa" Id="e1493c44-3fca-4a05-b8a8-ecb1260a6029" Panel.Bounds="1203,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Icon CatalogId="fa-cc-paypal" Id="e37d33de-d2fe-4724-9687-f661a2f144eb" Panel.Bounds="1155,694,32{5,2147483647},32{5,2147483647}" />
+                                <Group GroupName="Group" Id="a252e63b-314a-4d20-8c2d-d5d382f6d37a" Panel.Bounds="1155,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-cc-amex" Id="0da951e7-65fe-4bad-825e-9f46badaae46" Panel.Bounds="144,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-mastercard" Id="0b9d05d4-2463-40e3-8dbd-d617db3f70ee" Panel.Bounds="96,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-visa" Id="e1493c44-3fca-4a05-b8a8-ecb1260a6029" Panel.Bounds="48,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-paypal" Id="e37d33de-d2fe-4724-9687-f661a2f144eb" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
