@@ -4,7 +4,7 @@ This is the second assignment in the Teamwork Course @ SoftUni.
 Topic: Requirements and Prototyping. 
 
 ## Contributors: 
-  •	Ivaylo Ivanov
+  • Ivaylo Ivanov
   • Dimitur Nikolov
   • Tihomir Kasakov
   • Plamen Stoyanov
@@ -17,7 +17,7 @@ Topic: Requirements and Prototyping.
 	+	Advanced search (by category, date, price, location, etc.)
 	+	View details about an event (information, location, date, price and availability of tickets)
 	
-  •	Ivaylo Ivanov: 
+  • Ivaylo Ivanov: 
 	+	Login page
 	+	Register page
 	+	Both pages linked actively to Home page
