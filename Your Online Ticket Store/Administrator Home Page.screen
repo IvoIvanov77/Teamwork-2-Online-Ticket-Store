@@ -1,0 +1,209 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="084aec59-d5bd-4a46-8829-49d3a7035811">
+    <Page.Content>
+        <Content Width="1366" Height="768" Id="a8ab2167-a716-4936-9211-3a101a8e48d4">
+            <Content.Layers>
+                <Layer Id="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="10bb2443-c2c9-4dd4-b23a-ec92d32e92fd" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1366,768" Id="734ba2d2-5bbc-412c-80c1-3efd4c9e85c4" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="20b9b428-89b6-47d2-8870-8e1c732256be" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/01/2017 09:46:19" Id="fb04fa31-8ec1-439d-8daa-85b1fe036a2d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="549b588f-913e-45ca-a532-72a59614da42">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Title RichText="Your online ticket store!" FontSize="48" Id="db8d0b86-12fe-48db-84f2-9535be03349f" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="ef4056dc-f184-48b2-80a3-9a197fe1d918" Panel.Bounds="1246,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Tabs Id="8a60ea98-7fed-46a3-91eb-b670770cd897" Panel.Bounds="35,196,1296{5,2147483647},458{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Concerts" IsSelected="True" Id="f2ca6d7b-aa50-4a25-9aab-40902dc020b3">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="82b5bdd7-6755-4592-9bcc-cf89be57255c" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Festivals" Id="02aef34c-841c-4757-a75b-90256fda4d7c">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="384b2b4c-91cf-40b8-82aa-96d959b81368" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Theater Plays" Id="7768beeb-030b-4199-9876-548e87496b75">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="828577f1-1fb6-4624-bb1e-f0650a0c016d" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Sports" Id="cbf5d718-e538-4403-983f-9cd94efd1622">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="e088d307-7b5b-4729-a59b-eaa0e2e9863b" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextBox WatermarkText="Search for events" FontSize="24" Tooltip="Search event" Id="e78c2977-2742-4841-8bac-a3e6f4872a6b" Panel.Bounds="35,124,1069{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Search Event" FontSize="21" Id="a1da96a4-7858-4d8f-8ca0-6db1e8e058e6" Panel.Bounds="1130,126,201{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="e0b30271-4f7c-45ca-840c-205af2255507" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="9154ad02-e18f-4cad-a235-584b8268c73a" Panel.Bounds="247,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-google-plus-square" Id="6a764b7e-aa64-4bb7-aee6-a497a3045da5" Panel.Bounds="449,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-instagram" Id="909291ed-a129-4a12-aa85-c349500e967b" Panel.Bounds="551,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-twitter-square" Id="a69d6a58-6895-4d42-95fd-beade61639a8" Panel.Bounds="348,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-amex" Id="d4fd006b-833f-419b-8e02-3218a788aecb" Panel.Bounds="1299,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-mastercard" Id="ee3fe23e-cfc5-4945-9ae6-42abe10309ae" Panel.Bounds="1251,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-visa" Id="cee13d79-ed2c-47c7-8a37-4e30eb7550ca" Panel.Bounds="1203,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cc-paypal" Id="dc677d05-a122-417b-8119-504cfc2f81c5" Panel.Bounds="1155,694,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Link Text="Advanced search" FontSize="14" FontStyle="Normal|Underline" Opacity="0.4" Id="df6c52d8-2f68-40fe-9f51-e3c86ed88223" Panel.Bounds="1172,166,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Label RichText="Upcomming Events:" Id="a450d06c-e68a-4c77-80a5-2ddd64e5beee" Panel.Bounds="47,244,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Image Id="4492444d-b398-431e-a63f-e3b1172c4bf6" Panel.Bounds="62,282,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="Event details..." FontSize="18" Id="ab5bdb7d-f86b-433a-bc59-f5204cbbea22" Panel.Bounds="173,282,931{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="            Prices:&#xA;       from $89.99" FontSize="18" FontStyle="Normal" Id="f2fc19df-ac0c-433f-9525-350b3f77d2a9" Panel.Bounds="1130,282,174{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Image Id="2c805edd-9c50-45c2-894e-e1bb12708b5e" Panel.Bounds="62,420,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="Event details..." FontSize="18" Id="e86f0c25-5b93-4be9-b62b-a21ffeca22bf" Panel.Bounds="173,420,931{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="            Prices:&#xA;       from $59.99" FontSize="18" FontStyle="Normal" Id="8bba031d-5e83-48f2-97c8-212722c2d5b5" Panel.Bounds="1130,420,174{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Image Id="b8608991-e565-483c-a011-da286f509f8e" Panel.Bounds="62,558,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="Event details..." FontSize="18" Id="c55a2595-71d5-42be-b0d6-cb06ea33dc01" Panel.Bounds="173,558,931{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <TextArea Text="            Prices:&#xA;      from $129.99" FontSize="18" FontStyle="Normal" Id="b928e3c0-5261-45dc-8a68-21d935fca8cc" Panel.Bounds="1130,558,174{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;You are logged as, Username&lt;/Run&gt;" FontFamily="Open Sans" Id="7e0979d0-7af2-4221-969b-c5e180097b2c" Panel.Bounds="976,35,259{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Edit" FontFamily="Open Sans" Id="aa1a2ee7-12af-4b3b-9c86-3afd91499f10" Panel.Bounds="1130,374,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Delete" FontFamily="Open Sans" Id="8c7aab17-f465-4bba-aca9-8ea00ea29a79" Panel.Bounds="1224,374,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Edit" FontFamily="Open Sans" Id="f0573fcb-3c05-4d9c-b51f-f6ebfdcacff3" Panel.Bounds="1130,512,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Delete" FontFamily="Open Sans" Id="1bdf126f-d65b-4623-8720-2c3665680cce" Panel.Bounds="1224,512,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Button Text="Create Event" FontFamily="Open Sans" Id="58c1d637-d1a7-4350-a489-c50bda8104aa" Panel.Bounds="1159,237,120{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
