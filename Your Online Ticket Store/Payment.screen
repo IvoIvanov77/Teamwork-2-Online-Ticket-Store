@@ -81,6 +81,37 @@
                                 </Group>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="ec7905e7-36ae-42c8-9344-29e27f323ebb">
+                            <Add.Item>
+                                <Tabs FontSize="24" Id="b799732d-a7cd-4355-b658-6e22f9f5f143" Panel.Bounds="38,143,1302{5,2147483647},474{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Step 1" IsSelected="True" Id="285631fe-62ad-4e7b-8b58-77556b89e5f2">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="2b02a79b-7911-4868-9d43-07898da90e08">
+                                                    <Container.Children>
+                                                        <Label RichText="Your purchase" FontSize="36" FontFamily="Open Sans" Id="476d4dfb-a1fd-4dbe-97ab-afafe5c4e55a" Panel.Bounds="522,19,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Step 2" Id="e9110e3a-3826-4ce7-a84e-8280d226fef4">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d477284d-8f7b-4f83-a901-3dee595cd1a0">
+                                                    <Container.Children>
+                                                        <Label RichText="Your ticket" FontSize="36" FontFamily="Open Sans" Id="a00e38ae-65d4-4cff-b4c9-965645f33ebc" Panel.Bounds="593,209,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Step 3" Id="eec39caa-58e6-4d1e-9e69-9b0e763628bc">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a5ea0517-085c-4c1d-ae19-0c92405c996f" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

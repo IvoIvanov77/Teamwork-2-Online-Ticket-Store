@@ -67,36 +67,84 @@
                         </Add>
                         <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
                             <Add.Item>
-                                <Rectangle CornerRadius="20" Id="9ef84e2b-bcff-4c52-b3cf-efb104caf829" Panel.Bounds="35,135,1305{5,2147483647},504{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
-                            <Add.Item>
-                                <Label RichText="Your Profile Information" FontSize="36" FontFamily="Open Sans" Id="158c5450-7f4d-4cba-b18c-3b0d7813c7d2" Panel.Bounds="484,151,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
-                            <Add.Item>
-                                <Group GroupName="Group" Id="ecaba822-ee96-4840-9f60-a999b8eca27f" Name="Personal info" Panel.Bounds="114,318,0*,0*">
-                                    <Group.Children>
-                                        <TextBox Text="username" FontSize="21" FontFamily="Open Sans" Id="4bc4859e-9288-4b98-b126-91458685bba5" Panel.Bounds="138,0,120{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="E-mail:" FontSize="21" FontFamily="Open Sans" Id="0804a0b4-5fba-469f-bbad-d43251d7cb55" Panel.Bounds="3,68,5*{5,2147483647},5*{5,2147483647}" />
-                                        <TextBox Text="E-mail" FontSize="21" FontFamily="Open Sans" Id="4c4110cb-ba74-4e5c-a16a-39171b48b811" Panel.Bounds="141,62,120{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="Password:" FontSize="21" FontFamily="Open Sans" Id="b7742960-a3d9-4960-9096-fa00a10262b0" Panel.Bounds="0,136,5*{5,2147483647},5*{5,2147483647}" />
-                                        <PasswordBox Password="Pasword" FontSize="21" FontFamily="Open Sans" Id="f0753ddf-88ff-4dde-9f68-fe628f76006e" Panel.Bounds="138,136,120{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="Username:" FontSize="24" FontFamily="Open Sans" Id="7429c52c-f3f1-4b3b-be8f-1795b86d3ef6" Panel.Bounds="0,1,5*{5,2147483647},5*{5,2147483647}" />
-                                    </Group.Children>
-                                </Group>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
-                            <Add.Item>
-                                <Button Text="Confirm" CornerRadius="20" FontSize="24" FontFamily="Open Sans" Id="dd7317bb-6606-4e7b-abb6-e1278897f642" Panel.Bounds="643,546,214{5,2147483647},62{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
-                            <Add.Item>
-                                <Label RichText="Adress Information" FontSize="36" FontFamily="Open Sans" Id="c853f3ca-2d8e-4e72-abe1-3b54db93cb86" Panel.Bounds="811,216,5*{5,2147483647},5*{5,2147483647}" />
+                                <Tabs FontSize="36" Id="bb09819c-dcb9-4629-81a2-753bef4db887" Panel.Bounds="40,139,1294{5,2147483647},494{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Profile Information" IsSelected="True" Id="dad742a4-9893-40e5-8837-60328651324c" Viewbox.ContentWidth="1298" Viewbox.ContentHeight="511">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="3ff7e5da-d7b7-4d68-bf35-2c290e44e4a3">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="d53d5cca-a9b8-4cbd-bb3d-c3877e5aece3" Name="Profile Information" Panel.Bounds="-1,0,0*,0*">
+                                                            <Group.Children>
+                                                                <Group GroupName="Group" Id="ecaba822-ee96-4840-9f60-a999b8eca27f" Name="Personal info" Panel.Bounds="74,180,0*,0*">
+                                                                    <Group.Children>
+                                                                        <Rectangle CornerRadius="20" Id="2c9eac52-d33b-448f-8670-b331dbb475c2" Panel.Bounds="-6,-114,519{5,2147483647},340{5,2147483647}" />
+                                                                        <TextBox Text="username" FontSize="21" FontFamily="Open Sans" Id="4bc4859e-9288-4b98-b126-91458685bba5" Panel.Bounds="138,0,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="E-mail:" FontSize="21" FontFamily="Open Sans" Id="0804a0b4-5fba-469f-bbad-d43251d7cb55" Panel.Bounds="3,68,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <TextBox Text="E-mail" FontSize="21" FontFamily="Open Sans" Id="4c4110cb-ba74-4e5c-a16a-39171b48b811" Panel.Bounds="141,62,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="Password:" FontSize="21" FontFamily="Open Sans" Id="b7742960-a3d9-4960-9096-fa00a10262b0" Panel.Bounds="0,136,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <PasswordBox Password="Pasword" FontSize="21" FontFamily="Open Sans" Id="f0753ddf-88ff-4dde-9f68-fe628f76006e" Panel.Bounds="138,136,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="Username:" FontSize="24" FontFamily="Open Sans" Id="7429c52c-f3f1-4b3b-be8f-1795b86d3ef6" Panel.Bounds="0,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="User" FontSize="36" FontFamily="Open Sans" Id="cf242773-8c24-407a-90c7-fcaeacaeb409" Panel.Bounds="210,-90,5*{5,2147483647},5*{5,2147483647}" />
+                                                                    </Group.Children>
+                                                                </Group>
+                                                                <Button Text="Confirm" CornerRadius="20" FontSize="24" FontFamily="Open Sans" Id="dd7317bb-6606-4e7b-abb6-e1278897f642" Panel.Bounds="541,426,214{5,2147483647},62{5,2147483647}">
+                                                                    <Button.Click>
+                                                                        <CommandNavigate Screen="/Home Page.screen" Created="11/02/2017 16:36:45" Id="20de4bd7-863a-43a2-b0e9-d5d454607152">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Button.Click>
+                                                                </Button>
+                                                                <Group GroupName="Group" Id="3c1830ce-31ba-40ae-8c00-fa49ff2596d9" Name="Adreess Info" Panel.Bounds="715,66,0*,0*">
+                                                                    <Group.Children>
+                                                                        <Rectangle CornerRadius="20" Id="bcafc425-c1cd-40f9-a9f4-4b7dcc0c90a8" Panel.Bounds="0,0,515{5,2147483647},340{5,2147483647}" />
+                                                                        <Label RichText="Adreess Information" FontSize="36" FontFamily="Open Sans" Id="c853f3ca-2d8e-4e72-abe1-3b54db93cb86" Panel.Bounds="75,9,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="More info." FontSize="21" FontFamily="Open Sans" Id="545c56e8-ffe5-4ab3-990f-fa9964377b80" Panel.Bounds="11,247,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="Street name:" FontSize="21" FontFamily="Open Sans" Id="d7e97e9c-3d44-47fe-b772-fd1d2d48a074" Panel.Bounds="11,186,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="City:" FontSize="21" FontFamily="Open Sans" Id="f182720b-9f5d-4b48-8831-df8666910920" Panel.Bounds="11,125,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Label RichText="Country:" FontSize="21" FontFamily="Open Sans" Id="f1bc99bb-e242-449f-9c9d-25671b96e57e" Panel.Bounds="11,79,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <TextBox FontFamily="Open Sans" Id="10d2e6d8-ce5e-4a16-8c34-9b17a055a0d4" Panel.Bounds="174,191,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <TextBox FontFamily="Open Sans" Id="d31f7cb0-d14a-4292-b092-476ab94d2e38" Panel.Bounds="174,130,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <TextBox FontFamily="Open Sans" Id="e196efbb-81a0-449b-bad6-9a9a7bb7632a" Panel.Bounds="174,252,120{5,2147483647},5*{5,2147483647}" />
+                                                                        <TextBox FontFamily="Open Sans" Id="546370d3-7f6b-421c-9f74-7eb4d85f11ab" Panel.Bounds="174,84,120{5,2147483647},5*{5,2147483647}" />
+                                                                    </Group.Children>
+                                                                </Group>
+                                                                <Label RichText="Your Profile Information" FontSize="36" FontFamily="Open Sans" Id="158c5450-7f4d-4cba-b18c-3b0d7813c7d2" Panel.Bounds="444,13,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Payment Information" Id="e92348e1-76d4-4a64-a2fe-d85a89d78a0e">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="5990c806-40b4-4137-b548-2640e7962585">
+                                                    <Container.Children>
+                                                        <Label RichText="Bank Information" FontSize="36" FontFamily="Open Sans" Id="8b1132bb-1a4e-4773-a014-df390e7f6a1a" Panel.Bounds="499,48,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Type of card:" FontSize="24" FontFamily="Open Sans" Id="3e4d9af4-660f-47dd-bb04-ee46eef7256b" Panel.Bounds="62,136,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Ex. Date:" FontSize="24" FontFamily="Open Sans" Id="55d8f352-ddeb-47a7-807f-1c3fe4bcfe3e" Panel.Bounds="62,246,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Sec. Code" FontSize="24" FontFamily="Open Sans" Id="8c375ee5-aa88-49fc-ae1b-ae239d3c2b8b" Panel.Bounds="62,300,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Card Number:" FontSize="24" FontFamily="Open Sans" Id="f9556418-2519-4231-965b-d99efc6a1fe2" Panel.Bounds="62,191,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Confirm" CornerRadius="20" FontSize="36" FontFamily="Open Sans" Id="bb71d581-6c69-421e-b637-db653fbade15" Panel.Bounds="551,333,190{5,2147483647},78{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Home Page.screen" Created="11/02/2017 16:36:31" Id="6f4bcda0-bfe9-49ed-ba0b-68512c108339">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="a4effced-8614-4604-9944-69bb94f73e30" Panel.Bounds="263,134,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="cbcad6f7-04be-4107-83cd-292c320b844c" Panel.Bounds="263,189,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="3aee2504-5a1f-4d75-83ef-3e83dcc20fcd" Panel.Bounds="263,244,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="b2a00682-38c4-4da6-9464-f6e00fab7fb6" Panel.Bounds="263,298,120{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
