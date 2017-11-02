@@ -1,0 +1,335 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="632f51a3-6329-4d15-b02d-5f4964d3db2a">
+    <Page.Content>
+        <Content Width="1366" Height="768" Id="fef89f4b-f90c-415e-af2b-c9ab156e3171">
+            <Content.Layers>
+                <Layer Id="45e0cf22-dece-4919-875b-8776877ecfb4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="60a98828-af57-4169-8ef5-9f871f85efaf" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1366,768" Id="aaa68ba9-c602-41db-819f-071bf2f0147f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="411366f3-f901-4bb6-8240-e81e83b1440b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 07:57:23" Id="c2c259e1-2fdb-4c0d-be56-33c4e506e177">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6e1c71e4-5ff5-4009-b2c9-2b43228aa0d5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="f7d54c4f-55f6-4fca-a4e4-357774b0e17f" Name="Footer" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ecf901bf-d89f-4286-bdc2-afcd91939991" Name="Social Networks" Panel.Bounds="247,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="a8406e49-1dd6-4384-93b8-b794bd38c415" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-google-plus-square" Id="b1316e12-06bf-47c4-a38f-4adb273b8ff7" Panel.Bounds="202,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-instagram" Id="bb092e22-012a-4f21-8955-526a0eeb4412" Panel.Bounds="304,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-twitter-square" Id="f152923f-090d-41bf-9d70-3d8c32b33d01" Panel.Bounds="101,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="0d448cf5-b07d-433a-80cb-72d02cbaeacd" Name="Payments" Panel.Bounds="1155,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-cc-amex" Id="2366bec9-57f5-40dc-9e0d-49d6280b3571" Panel.Bounds="144,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-mastercard" Id="2c2ad61c-f5af-43ff-8cf5-bfcd77883c63" Panel.Bounds="96,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-visa" Id="025d6727-4b6d-49f6-a5e4-4c5697f33b25" Panel.Bounds="48,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-paypal" Id="516192de-69a4-4a91-a74d-314658278bf8" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="2117dbbb-27d5-4dd7-a29b-a58bff8bf528" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="0823235b-338b-4f75-b221-f389d2e4e192" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="f133d3d1-4843-491d-a59b-eb5e138157bb" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/02/2017 08:53:03" Id="5a528b56-ca1d-4eca-a448-16fdc5bf8c91">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="ab482beb-5e38-44f8-a858-15c141c5a8db" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/02/2017 08:52:51" Id="92200335-2d7a-4b19-93d8-5deb22ba4dca">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="73e30f0f-a079-4165-8491-0ffbf6486335" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}">
+                                            <Label.Click>
+                                                <CommandSwitchTo SceneId="f82ffb38-6567-4351-9e16-021ac437a25a" Created="11/02/2017 09:06:50" Id="a7e3ed80-5ee9-4a9f-8305-b1a1f259b10b" />
+                                            </Label.Click>
+                                        </Label>
+                                        <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="a16ee435-f3eb-4b2e-8d59-6a5c65605841" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="f34891b8-8a12-4b5e-a234-75f96baa5855" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ece5bba6-d7f4-4c73-966b-0f75c1459a8c" Name="Purches Header" Panel.Bounds="98,151,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle CornerRadius="20" Id="3227911b-606c-4396-ab8f-863d2f038998" Panel.Bounds="0,0,1169{5,2147483647},208{5,2147483647}" />
+                                        <Label RichText="&lt;Run FontSize=&quot;36&quot; &gt;AПР&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;36&quot; &gt; 13&#xD;&#xA;&lt;/Run&gt;" FontSize="21" FontFamily="Open Sans" Id="f34891b8-8a12-4b5e-a234-75f96baa5855" Panel.Bounds="179,54,75{5,2147483647},99{5,2147483647}" />
+                                        <Label RichText="Какво" FontSize="21" FontFamily="Open Sans" Id="9dff1381-94a3-4e40-af5d-1443dd0cbdcc" Panel.Bounds="269,26,75{5,2147483647},36{5,2147483647}" />
+                                        <Label RichText="Кога" FontSize="21" FontFamily="Open Sans" Id="d2888072-d43b-4482-82da-9600b494d294" Panel.Bounds="710,41,75{5,2147483647},36{5,2147483647}" />
+                                        <Label RichText="Къде" FontSize="21" FontFamily="Open Sans" Id="6b427646-2dd2-4f9b-add8-b371c69415c6" Panel.Bounds="951,38,75{5,2147483647},36{5,2147483647}" />
+                                        <Label RichText="20:00, &#xD;&#xA;петък, 13. апр 2018" FontSize="21" FontFamily="Open Sans" Id="458ee9b0-65b5-4d8b-a63e-e8a564f6b771" Panel.Bounds="710,75,205{5,2147483647},57{5,2147483647}" />
+                                        <Label RichText="Sports hall &quot;Arena Armeec&quot;&#xD;&#xA;Asen Yordanov Blvd. Sofia България" FontSize="18" FontFamily="Open Sans" Id="c1d46156-b7bb-4bca-891e-007ecd277fa1" Panel.Bounds="951,71,159{5,2147483647},149{5,2147483647}" />
+                                        <Label RichText="ГОРАН БРЕГОВИЧ" FontSize="48" FontFamily="Open Sans" Id="f139019a-870e-4c2f-9920-eabd76917d43" Panel.Bounds="269,71,5*{5,2147483647},5*{5,2147483647}">
+                                            <Label.Click>
+                                                <CommandNavigate Screen="/Event Details.screen" Created="11/02/2017 08:35:13" Id="d097722e-7bc7-4744-afdf-2c49d6f547c5">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Label.Click>
+                                        </Label>
+                                        <Image SourcePath="assets/ojbg_200_200.jpg" Id="e4d37efe-3a5a-4173-956e-8459e55a38ba" Panel.Bounds="25,32,142{5,2147483647},143{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Tabs FontSize="21" Id="5e74810f-9a40-426b-8407-5ce0773ed191" Panel.Bounds="113,376,920{5,2147483647},264{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Избор на място" IsSelected="True" Id="c38eb512-83dd-4be8-830a-23bcaa88db28" Viewbox.ContentHeight="681">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="2f3b9fdc-2dcc-4e4f-906d-93b33e6c4c7e">
+                                                    <Container.Children>
+                                                        <Rectangle Id="656dc1c5-5f59-489d-a686-fd8a3d5da802" Panel.Bounds="22,16,867{5,2147483647},135{5,2147483647}" />
+                                                        <Rectangle Id="d567c157-1fde-470b-b9f8-b85235bc02d3" Panel.Bounds="22,533,867{5,2147483647},135{5,2147483647}" />
+                                                        <Rectangle Id="3f42ca9b-f11f-43fc-9e86-aac4afaad280" Panel.Bounds="22,358,867{5,2147483647},135{5,2147483647}" />
+                                                        <Rectangle Id="7a7d6de0-62f4-4432-b0c6-ab564f54a52e" Panel.Bounds="22,183,867{5,2147483647},135{5,2147483647}" />
+                                                        <Label RichText="Партер - 35 лв.&#xD;&#xA; 35,00 BGN" FontSize="24" FontFamily="Open Sans" Id="fdef3539-2506-49b2-8326-ec02e3902302" Panel.Bounds="59,49,180{5,2147483647},69{5,2147483647}" />
+                                                        <Label RichText="Партер - 55 лв.&#xD;&#xA; 55,00 BGN" FontSize="24" FontFamily="Open Sans" Id="67e3e131-0a42-441e-9145-894a27c638c6" Panel.Bounds="59,566,180{5,2147483647},69{5,2147483647}" />
+                                                        <Label RichText="Партер - 45 лв.&#xD;&#xA; 45,00 BGN" FontSize="24" FontFamily="Open Sans" Id="146859fa-27b8-4c40-8dd6-cbc712345249" Panel.Bounds="59,391,180{5,2147483647},69{5,2147483647}" />
+                                                        <Label RichText="Трибуни - 35 лв.&#xD;&#xA; 35,00 BGN" FontSize="24" FontFamily="Open Sans" Id="67bd0c77-ffcc-4edb-b9a8-638168d2373e" Panel.Bounds="59,216,192{5,2147483647},69{5,2147483647}" />
+                                                        <Button Text="Купи" CornerRadius="20" FontSize="21" FontFamily="Open Sans" Id="cfc807e3-e60f-4fc5-9c07-97047c9c0ef2" Panel.Bounds="685,38,180{5,2147483647},91{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Payment.screen" Created="11/02/2017 13:28:40" Id="212de506-513d-4746-9f27-fd66d4f87469">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <Button Text="Купи" CornerRadius="20" FontSize="21" FontFamily="Open Sans" Id="8344dbce-e12d-4c0e-80ba-7185b6bb2fc6" Panel.Bounds="685,555,180{5,2147483647},91{5,2147483647}" />
+                                                        <Button Text="Купи" CornerRadius="20" FontSize="21" FontFamily="Open Sans" Id="77fc5f89-7606-43cb-a1bc-0fc7d85bc0ee" Panel.Bounds="685,380,180{5,2147483647},91{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Payment.screen" Created="11/02/2017 13:29:05" Id="e14c4bc7-a88c-495c-bffa-7e5a46ce8673">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <Button Text="Купи" CornerRadius="20" FontSize="21" FontFamily="Open Sans" Id="e5a15292-f01a-404d-8d44-308aff34a5b1" Panel.Bounds="685,205,180{5,2147483647},91{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Payment.screen" Created="11/02/2017 13:28:51" Id="e4b78007-7c2a-4e2e-8d53-ccb52cce76b9">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="c3e2739e-536d-4b2c-af3c-e42e32431795" Panel.Bounds="384,69,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="739403f6-224c-493f-9aed-f9633f0b3d8e" />
+                                                                <Item Text="2 билета" Id="9ac4ba8f-cc18-47dd-87ac-bca2ebac9223" />
+                                                                <Item Text="3 билета" Id="9015fb39-f552-4c3c-a701-f7be651b5003" />
+                                                                <Item Text="4 билета" Id="9b2e2120-8d4b-4249-9115-5fc8a73205c2" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="ee8cc940-b70e-4b14-9f0f-9a7a3a73e33f" Panel.Bounds="384,586,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="d4d75c51-cc1c-408f-82b6-6d13d0089690" />
+                                                                <Item Text="2 билета" Id="182dce39-f144-4b87-962b-9e2bab5a8143" />
+                                                                <Item Text="3 билета" Id="0c0a5109-1beb-4e96-ba44-b2019b040ecb" />
+                                                                <Item Text="4 билета" Id="77f5c8b9-ac0e-4e75-ba2f-a8d83d3fa7e6" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="1a7aa054-6519-4907-bb84-268746a9deee" Panel.Bounds="387,408,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="3f4c3a2c-41b1-4e40-9754-08d7effd805f" />
+                                                                <Item Text="2 билета" Id="2b936af0-f8fc-4885-9c75-97ff34f726c8" />
+                                                                <Item Text="3 билета" Id="0da79fcf-f596-468f-a8b6-5d3c91f40a14" />
+                                                                <Item Text="4 билета" Id="f83008ee-8363-4d40-a74d-67de7e4fb739" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="6c8f3eb2-ca84-45e2-af88-ced3369b0e03" Panel.Bounds="384,236,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="dcdb78fe-1317-4f98-b556-8c258b0d4015" />
+                                                                <Item Text="2 билета" Id="2836fd06-a764-4c02-ab7d-3b1c4c01be79" />
+                                                                <Item Text="3 билета" Id="aa3a746d-292a-420c-9075-233237bff5f3" />
+                                                                <Item Text="4 билета" Id="53f47a49-2fea-4a10-93cd-5c8b1dc17f9f" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Интерактивна схема" Id="c258d9f4-7136-4b7a-99fc-882ad946b263" Viewbox.ContentHeight="550">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="2e8f59a7-5fca-4aee-a07a-4f8757a4c251">
+                                                    <Container.Children>
+                                                        <Image SourcePath="assets/2savemartcenter_endstageseating_31724.png" Id="7105ed78-50d0-4dad-b66b-37f15e7fb6dd" Panel.Bounds="-1,-67,730{5,2147483647},700{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Label RichText="↑ Моля, използвайте интерактивната схема! (Ако има активна за това събитие)&#xD;&#xA;&#xD;&#xA;Допълнителна информация&#xD;&#xA;След като добавите билетите в потребителската Ви кошница, те ще бъдат резервирани за 20 минути.&#xD;&#xA;&#xD;&#xA;Забележка: Избраните от Вас билети ще бъдат резервирани за срок от 20 мин., след което резервацията ще бъде анулирана автоматично. Можете да поръчате макс. 8 билети от една ценова категория наведнъж. Ако желаете да изберете повече билети за този спектакъл, натиснете бутона &quot;Изберете билети от различна ценова категория&quot; на следващата страница. " FontFamily="Open Sans" Id="2961f4da-48f4-4821-a97e-470047bf6b4e" Panel.Bounds="1076,411,248{5,2147483647},220{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="ecf901bf-d89f-4286-bdc2-afcd91939991" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Rectangle CornerRadius="20" Opacity="1" Id="4f07bddc-7444-4dc3-b034-e83b250b7b7b" Panel.Bounds="42,125,1289{5,2147483647},522{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked EN" StateGroup="c2c259e1-2fdb-4c0d-be56-33c4e506e177" ParentScene="c2c259e1-2fdb-4c0d-be56-33c4e506e177" Created="11/02/2017 09:06:50" Id="f82ffb38-6567-4351-9e16-021ac437a25a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="aba9b8f4-a3db-47a1-aa1e-0f01e5fe262b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                            <Add.Item>
+                                <Tabs FontSize="21" Id="e8ab9e36-7dcf-46a7-87aa-fc2c54236349" Panel.Bounds="106,361,952{5,2147483647},271{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Избор на място" IsSelected="True" Id="041590cf-9c8a-45da-a3b6-d304afba38a1" Viewbox.ContentHeight="644">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c2117824-79c1-4d90-abf0-ca6d8ae13586">
+                                                    <Container.Children>
+                                                        <Rectangle Id="3b975068-d79a-4d73-ba33-8459a23e3013" Panel.Bounds="12,4,922{5,2147483647},144{5,2147483647}" />
+                                                        <Rectangle Id="a62112be-b8ab-45d9-b9d7-0ecf093cb289" Panel.Bounds="12,169,922{5,2147483647},144{5,2147483647}" />
+                                                        <Rectangle Id="66e5db5a-3a12-4b89-8e9b-bd84c34b1f6c" Panel.Bounds="12,328,922{5,2147483647},144{5,2147483647}" />
+                                                        <Rectangle Id="563198ab-85d8-4a59-b633-a7383a767f11" Panel.Bounds="13,486,922{5,2147483647},144{5,2147483647}" />
+                                                        <Label RichText="Партер - 35 лв.&#xD;&#xA; 35,00 BGN" FontSize="36" FontFamily="Open Sans" Id="ca9f7d5a-9ef6-4c7a-8b17-10f85be8e00f" Panel.Bounds="38,29,271{5,2147483647},94{5,2147483647}" />
+                                                        <Label RichText="Трибуни - 35 лв.&#xD;&#xA; 35,00 BGN" FontSize="36" FontFamily="Open Sans" Id="4231d1a2-7852-4a99-8fe9-e1ffa8baf14e" Panel.Bounds="38,188,326{5,2147483647},106{5,2147483647}" />
+                                                        <Label RichText="Партер - 45 лв.&#xD;&#xA; 45,00 BGN" FontSize="36" FontFamily="Open Sans" Id="a40450ae-26dd-4b6e-8362-e1fc1ff3138f" Panel.Bounds="38,344,283{5,2147483647},111{5,2147483647}" />
+                                                        <Label RichText="Партер - 55 лв.&#xD;&#xA; 55,00 BGN" FontSize="36" FontFamily="Open Sans" Id="46478773-3478-4853-9d43-0e34fe0dbe62" Panel.Bounds="38,500,271{5,2147483647},115{5,2147483647}" />
+                                                        <Button Text="Купи" FontSize="24" FontFamily="Open Sans" Id="640b9309-0bba-4fe7-99cc-d474bbf8eb6b" Panel.Bounds="749,33,163{5,2147483647},84{5,2147483647}" />
+                                                        <Button Text="Купи" FontSize="24" FontFamily="Open Sans" Id="3267dada-1ef2-409c-a2d5-62d1a5d6d182" Panel.Bounds="749,516,163{5,2147483647},84{5,2147483647}" />
+                                                        <Button Text="Купи" FontSize="24" FontFamily="Open Sans" Id="fc457649-e5b2-4a5d-aa8f-b36e9bf26116" Panel.Bounds="749,358,163{5,2147483647},84{5,2147483647}" />
+                                                        <Button Text="Купи" FontSize="24" FontFamily="Open Sans" Id="0b9508e7-a5a7-43eb-b1c5-fc4de6304354" Panel.Bounds="749,199,163{5,2147483647},84{5,2147483647}" />
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="b1695594-ca7d-40da-818f-410ddbd54f1c" Panel.Bounds="445,62,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="adc42d76-e7c4-49c3-b593-64dcc0e62c57" />
+                                                                <Item Text="2 билета" Id="8210283b-67e2-401f-a6fd-ebc9e8b03262" />
+                                                                <Item Text="3 билета" Id="e718e778-0030-4a91-8870-eb7fdf6c10c2" />
+                                                                <Item Text="4 билета" Id="c2b36dde-6a29-4776-8e3e-fe81536af9ad" />
+                                                                <Item Text="5 билета" Id="3a09aa2b-1128-45c3-80f8-0f24eb461a71" />
+                                                                <Item Text="6 билета" Id="f9dc4776-796b-40bc-8618-ad0169daa167" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="a13c5621-6612-4596-9b32-5ccdd618090e" Panel.Bounds="445,396,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="5dcdb9b5-5f85-4b36-ba2c-5a1b3d63d864" />
+                                                                <Item Text="2 билета" Id="35211f05-2376-4652-b702-b54c004ca80f" />
+                                                                <Item Text="3 билета" Id="05e02bec-ed19-4f73-ae15-2fb6d43c2f64" />
+                                                                <Item Text="4 билета" Id="8eb42342-a480-46c3-9328-0f21b2b59e4f" />
+                                                                <Item Text="5 билета" Id="5dbf8cd2-9428-4933-b8b8-507630a81b32" />
+                                                                <Item Text="6 билета" Id="73c14957-3658-40df-b3e4-a21ece7d8d70" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="eba2f991-dfa3-4177-a9b4-4feafda7b56c" Panel.Bounds="445,227,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="d6ffce58-7dbd-40ef-824c-c48700508cae" />
+                                                                <Item Text="2 билета" Id="aff9ef3d-21cd-4237-b85f-3c64e3b45144" />
+                                                                <Item Text="3 билета" Id="daef8e9a-25f2-41fd-82b3-5664cf5f08e6" />
+                                                                <Item Text="4 билета" Id="b9a9591f-b825-4d60-9cea-814239ff0aa5" />
+                                                                <Item Text="5 билета" Id="3d47cad8-1772-4d58-9ad2-59b9bea0ebb9" />
+                                                                <Item Text="6 билета" Id="8b7114e2-4650-44ab-b299-e40c7f087225" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <ComboBox Hint="Брой" FontSize="18" Id="060a9975-03dc-4501-b8de-af51f94c70b8" Panel.Bounds="448,544,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="1 билет" Id="1b1629ac-085c-41cc-8f22-d8582c391f71" />
+                                                                <Item Text="2 билета" Id="f8b2dad5-5afd-4141-9b73-7812e0a02d23" />
+                                                                <Item Text="3 билета" Id="f0eb2b26-dbda-4854-b477-5986f211c3cd" />
+                                                                <Item Text="4 билета" Id="d1e704b8-2331-477a-9d75-1b4fedb28cee" />
+                                                                <Item Text="5 билета" Id="defcf92f-a60c-4f87-bc4d-f8a09d59a1b9" />
+                                                                <Item Text="6 билета" Id="6cb8a24b-d5be-4123-b4b0-c73bfa68c71c" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Id="3ada7261-ba87-41a4-a23a-2b303af3d818">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="63ce506a-99d6-4463-b981-737a3f38d03c" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Id="e90eaeac-4d86-4c4c-b8ac-df8f22e7c08e">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="38dce476-e4b9-4aed-b8a8-05efba403889" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Интерактивна схема" Id="daeb9eac-7069-49fa-8804-d2cf63e93103" Viewbox.ContentHeight="598">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="09a22297-9aa3-4688-89e4-8d94bbba4bdb">
+                                                    <Container.Children>
+                                                        <Image SourcePath="assets/2savemartcenter_endstageseating_31724.png" Id="0ea78cb5-b97d-4471-90da-8476c6dab7ad" Panel.Bounds="79,-52,649{5,2147483647},649{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;Hello, Username&lt;/Run&gt;" Target="0823235b-338b-4f75-b221-f389d2e4e192" />
+                        <Resize To="140,5" Target="0823235b-338b-4f75-b221-f389d2e4e192" />
+                        <Move To="1003,62" Target="0823235b-338b-4f75-b221-f389d2e4e192" />
+                        <Resize To="1199,200" Target="3227911b-606c-4396-ab8f-863d2f038998" />
+                        <Move To="97,149" Target="3227911b-606c-4396-ab8f-863d2f038998" />
+                        <Set Property="Panel.Bounds" Value="62,181,200{5,2147483647},200{5,2147483647}" Target="e4d37efe-3a5a-4173-956e-8459e55a38ba" />
+                        <Resize To="117,123" Target="e4d37efe-3a5a-4173-956e-8459e55a38ba" />
+                        <Move To="123,187" Target="e4d37efe-3a5a-4173-956e-8459e55a38ba" />
+                        <Move To="247,201" Target="f34891b8-8a12-4b5e-a234-75f96baa5855" />
+                        <Move To="337,166" Target="9dff1381-94a3-4e40-af5d-1443dd0cbdcc" />
+                        <Move To="337,217" Target="f139019a-870e-4c2f-9920-eabd76917d43" />
+                        <Set Property="Panel.Bounds" Value="341,208,418*{5,2147483647},66{5,2147483647}" Target="f139019a-870e-4c2f-9920-eabd76917d43" />
+                        <Resize To="418,57" Target="f139019a-870e-4c2f-9920-eabd76917d43" />
+                        <Move To="777,166" Target="d2888072-d43b-4482-82da-9600b494d294" />
+                        <Move To="777,220" Target="458ee9b0-65b5-4d8b-a63e-e8a564f6b771" />
+                        <Move To="1011,166" Target="6b427646-2dd2-4f9b-add8-b371c69415c6" />
+                        <Move To="1011,201" Target="c1d46156-b7bb-4bca-891e-007ecd277fa1" />
+                        <Resize To="158,131" Target="c1d46156-b7bb-4bca-891e-007ecd277fa1" />
+                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;Sports hall &quot;Arena Armeec&quot;&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Asen Yordanov Blvd. Sofia България&lt;/Run&gt;" Target="c1d46156-b7bb-4bca-891e-007ecd277fa1" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

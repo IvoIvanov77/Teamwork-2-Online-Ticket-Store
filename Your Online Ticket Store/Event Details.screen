@@ -126,8 +126,23 @@
                                 <Group GroupName="Group" Id="7b777c9d-65ee-49db-9693-038d11d7ff56" Panel.Bounds="374,529,0*,0*">
                                     <Group.Children>
                                         <Icon CatalogId="fa-ticket" Id="d949a981-8d40-4505-bde7-2e2d7e73e630" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
-                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Tooltip="Directions" Id="e90d4c76-6711-474d-b9e0-8ebe08ee54cc" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}" />
+                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Tooltip="Directions" Id="e90d4c76-6711-474d-b9e0-8ebe08ee54cc" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/Purchase tickets.screen" Created="11/02/2017 08:19:56" Id="52e1133e-f21c-494d-9ce1-828dbbbaa70b">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
                                     </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Purchase tickets.screen" Created="11/02/2017 13:02:53" Id="53d0349a-99d2-4b5a-9f9c-ed4f422ab98f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
@@ -168,6 +183,13 @@
                                         <Icon CatalogId="fa-ticket" Id="dd141f92-e595-448f-8902-7d097ea37d6f" Panel.Bounds="34,16,33{5,2147483647},33{5,2147483647}" />
                                         <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="1" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Tooltip="Directions" Id="eae0e636-34e7-4986-9bac-0d13e7afc38b" Panel.Bounds="98,16,145{5,2147483647},35{5,2147483647}" />
                                     </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Purchase tickets.screen" Created="11/02/2017 08:21:21" Id="9bff487b-491d-4679-ac0f-e3ed7844c2f5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
