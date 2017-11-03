@@ -183,7 +183,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
                             <Add.Item>
-                                <Button Text="Create Event" FontFamily="Open Sans" Id="58c1d637-d1a7-4350-a489-c50bda8104aa" Panel.Bounds="1159,237,120{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Create Event" FontFamily="Open Sans" Id="58c1d637-d1a7-4350-a489-c50bda8104aa" Panel.Bounds="1159,237,120{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Create Event.screen" Created="11/03/2017 12:46:41" Id="4e072376-2d05-46df-bf68-4a1e14c40594">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Push" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
