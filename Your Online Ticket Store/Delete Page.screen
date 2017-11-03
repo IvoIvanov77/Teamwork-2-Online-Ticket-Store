@@ -1,0 +1,206 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="960486cb-93b3-4870-8960-9743ffd149d0">
+    <Page.Content>
+        <Content Width="1366" Height="768" Id="6a4bd1ac-dcd7-4b2d-8063-58fde892d7ce">
+            <Content.Layers>
+                <Layer Id="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2e0fdec4-30ea-4d24-a69c-efcde3d0f988" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1366,768" Id="349830c6-71b4-490d-83c7-ad0f10dd4b16" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="ab6b9d36-a03d-4ae1-ba57-c8f2cc9b998b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 13:09:26" Id="9cc221cf-ed2a-4f66-9155-446e5aad142b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="38e281ce-9847-416b-b168-45fc2eb422c3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Rectangle CornerRadius="20" Id="a1b086bb-cfa9-4485-aee4-e296d73501f6" Panel.Bounds="35,124,1296{5,2147483647},530{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="fb103218-8e3f-4c8b-90b2-8c5bbef19031" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="38086260-eab3-4992-9e74-a6874884992e" Panel.Bounds="247,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-facebook-square" Tooltip="Connecit with Facebook" Id="21884869-d423-4495-b483-a00043753569" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-google-plus-square" Id="1aecf2cf-f42e-404b-a29f-7086df634f69" Panel.Bounds="202,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-instagram" Id="252781d3-bb24-4f8b-9a3d-a5c74a3748ec" Panel.Bounds="304,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-twitter-square" Id="b7350945-7c0a-493d-ade8-5313ec951a3d" Panel.Bounds="101,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="d4a50ef0-9e5c-4505-b4a5-908058e8d034" Panel.Bounds="1155,694,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-cc-amex" Id="ed4481a3-2408-4346-8a61-0a483f6ab4ef" Panel.Bounds="144,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-mastercard" Id="3deb6596-dcbf-440d-9c0c-5b251034c566" Panel.Bounds="96,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-visa" Id="c42c180a-06ca-4fad-bd3c-e077014c6800" Panel.Bounds="48,0,32{5,2147483647},32{5,2147483647}" />
+                                        <Icon CatalogId="fa-cc-paypal" Id="b722438a-946b-43ca-8fcb-38dad3dc1f22" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Title RichText="Some Event Name" FontSize="40" FontFamily="Open Sans" Id="f99bdb41-d3a2-4ebe-975b-7739e8d2da92" Panel.Bounds="512,142,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Rectangle CornerRadius="20" Id="33530432-134b-4310-b983-512258bb8f29" Panel.Bounds="748,231,548{5,2147483647},387{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Image SourcePath="assets/Outlook-Festival.jpg" Id="721ffd2e-884b-4e89-82aa-aa97e8e27a98" Panel.Bounds="90,231,529{5,2147483647},259{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Opacity="0.2" Id="f34c10a0-c96a-4864-b179-25e85b77086f" Panel.Bounds="110,529,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="Pin" Id="250b3da8-8e0c-46d2-9bff-d26586670af9" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
+                                        <Button Text="Get Directions" Background="#FFB1CBE2" CornerRadius="5" BorderThickness="1" FontSize="21" FontFamily="Open Sans" FontStyle="Normal" Tooltip="Directions" Id="c256ca5b-82c9-4beb-8227-4357386d083a" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Opacity="0.2" Tooltip="Buy Tickets" Id="cd495ad8-1e9f-49b0-9057-a81259c34c8f" Panel.Bounds="374,529,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-ticket" Id="e5506d13-e658-4271-8e9a-936c1c5cb4c0" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
+                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Id="1c1a7208-9102-4b8d-856f-ee2a191adb4f" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;21&quot; FontWeight=&quot;Bold&quot; &gt;What:&lt;/Run&gt; &lt;Run FontSize=&quot;14&quot; &gt;Description of the venue. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;/Run&gt;" FontFamily="Open Sans" Id="7ec51fa7-fee7-4398-82d4-fa16f2e7b515" Panel.Bounds="790,266,471{5,2147483647},86{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;21&quot; FontWeight=&quot;Bold&quot; &gt;Where:&lt;/Run&gt; &lt;Run FontSize=&quot;14&quot; &gt;Location of the venue. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.&lt;/Run&gt;" FontFamily="Open Sans" Id="1e517d55-52c7-4c9b-b1a2-e8269a0ab0d1" Panel.Bounds="790,368,471{5,2147483647},55{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Label RichText="19. 06. 2018" FontSize="18" FontFamily="Open Sans" Id="82efe8b4-7e54-422c-8332-3f2a622050f1" Panel.Bounds="632,196,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;21&quot; FontWeight=&quot;Bold&quot; &gt;When:&lt;/Run&gt; &lt;Run FontSize=&quot;14&quot; &gt;Ticket sale starts: 01. 11. 2017&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; FontWeight=&quot;Bold&quot; &gt;Venue: 19. 06. 2018. Start at 18:00h&lt;/Run&gt;" FontFamily="Open Sans" Id="69e9277e-28d0-44c2-b79b-fd454481fd8f" Panel.Bounds="790,439,471{5,2147483647},55{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;21&quot; FontWeight=&quot;Bold&quot; &gt;Price:&lt;/Run&gt; &lt;Run FontSize=&quot;18&quot; &gt;Tickets starting from &lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; FontWeight=&quot;Bold&quot; &gt;$79.99&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Available tickets: &#xD;&#xA;&lt;/Run&gt;" FontFamily="Open Sans" Id="4fb35e9a-c462-4bb5-9c85-7a2804ffa054" Panel.Bounds="790,510,471{5,2147483647},55{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <ProgressBar Foreground="#FFE3B1B0" IsIndeterminate="False" Value="23" Id="2d1f7fe1-20aa-4950-bb7a-34819462abb3" Panel.Bounds="940,548,321{5,2147483647},11{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Opacity="0.2" Tooltip="Buy Tickets" Id="310cc256-ab36-4edc-afb8-f5b7c45b0ba9" Panel.Bounds="883,556,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-ticket" Id="e9d79c07-8017-47f6-aa44-b49b3a8bb398" Panel.Bounds="34,16,33{5,2147483647},33{5,2147483647}" />
+                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="1" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Id="7ed11eaf-5004-4eb1-a994-05a3effb46ff" Panel.Bounds="98,16,145{5,2147483647},35{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Icon CatalogId="fa-bullhorn" Id="6f9fa56d-339c-457f-be2c-ffa30aa7b439" Panel.Bounds="753,293,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Icon CatalogId="Locate" Id="9c182242-dc3d-437b-86e6-bb25c23216d9" Panel.Bounds="753,379,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Icon CatalogId="fa-clock-o" Id="b4ec6e56-21c4-42e2-ae66-aeedd0d67cbd" Panel.Bounds="753,450,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Icon CatalogId="fa-money" Id="3764589e-07a7-480b-8da8-0518f25afd8c" Panel.Bounds="753,521,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="8d4b1ee0-51f2-41c6-a021-c815a29a70d0" Panel.Bounds="242,594,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="Trash" Id="cc8ba6c8-94c6-421d-80ef-be98eda8df9e" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
+                                        <Button Text="Delete Event" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Id="72cfe768-6a2e-49eb-a523-653e4f9dbdf8" Panel.Bounds="68,0,167{5,2147483647},48{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Administrator Home Page.screen" Created="11/03/2017 13:35:08" Id="31ec717a-67e0-4be8-99a7-f4d44c178871">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0bfa6f52-e130-4bcd-9b62-c10eb50dfaa2">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="49bfadaf-468f-4b63-84c5-71cb9df9b573" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="df074f7e-8507-4cb8-a478-44112b6a7164" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="c340fa08-58ee-42db-a13d-5e41913b5678" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 13:34:49" Id="ee25f260-d49d-40a5-a8dd-e61118242dfa">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="7f77d0ce-28fc-4b07-b392-bfa7a4cf1626" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Administrator Home Page.screen" Created="11/03/2017 13:34:33" Id="f6deaaab-a5cc-49c7-a443-6624720a40ca">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="8e41b48a-f60f-4eee-8b84-45f81cc24b8c" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
+                                        <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="3924a21f-493c-4d25-8d0b-c18918f66911" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
