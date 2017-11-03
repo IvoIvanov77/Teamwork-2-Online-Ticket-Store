@@ -79,15 +79,18 @@
                                         <Icon CatalogId="Pin" Id="e699f2bf-23d5-4cf4-bc5b-0c72f98800f2" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
                                         <Button Text="Get Directions" Background="#FFB1CBE2" CornerRadius="5" BorderThickness="1" FontSize="21" FontFamily="Open Sans" FontStyle="Normal" Tooltip="Directions" Id="7c26332c-d25a-4f66-bcb6-b291fb9e7c18" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}" />
                                     </Group.Children>
+                                    <Group.Click>
+                                        <CommandOpenUrl Url="http://maps.google.com" Created="11/03/2017 12:21:19" Id="7c1fb373-e46d-4ffd-a557-dd3a0b301f82" />
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Group GroupName="Group" Id="7b777c9d-65ee-49db-9693-038d11d7ff56" Panel.Bounds="374,529,0*,0*">
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="7b777c9d-65ee-49db-9693-038d11d7ff56" Panel.Bounds="374,529,0*,0*">
                                     <Group.Children>
                                         <Icon CatalogId="fa-ticket" Id="d949a981-8d40-4505-bde7-2e2d7e73e630" Panel.Bounds="0,0,48{5,2147483647},48{5,2147483647}" />
-                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Tooltip="Directions" Id="e90d4c76-6711-474d-b9e0-8ebe08ee54cc" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}">
+                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="24" FontFamily="Open Sans" FontStyle="Bold" Id="e90d4c76-6711-474d-b9e0-8ebe08ee54cc" Panel.Bounds="68,0,157{5,2147483647},48{5,2147483647}">
                                             <Button.Click>
                                                 <CommandNavigate Screen="/Purchase tickets.screen" Created="11/02/2017 08:19:56" Id="52e1133e-f21c-494d-9ce1-828dbbbaa70b">
                                                     <CommandNavigate.Transition>
@@ -139,10 +142,10 @@
                         </Add>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Group GroupName="Group" Id="c1d97d52-88eb-43cf-be00-cb6e9c741f03" Panel.Bounds="883,556,0*,0*">
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="c1d97d52-88eb-43cf-be00-cb6e9c741f03" Panel.Bounds="883,556,0*,0*">
                                     <Group.Children>
                                         <Icon CatalogId="fa-ticket" Id="dd141f92-e595-448f-8902-7d097ea37d6f" Panel.Bounds="34,16,33{5,2147483647},33{5,2147483647}" />
-                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="1" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Tooltip="Directions" Id="eae0e636-34e7-4986-9bac-0d13e7afc38b" Panel.Bounds="98,16,145{5,2147483647},35{5,2147483647}" />
+                                        <Button Text="Buy Tickets" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="1" FontSize="18" FontFamily="Open Sans" FontStyle="Bold" Id="eae0e636-34e7-4986-9bac-0d13e7afc38b" Panel.Bounds="98,16,145{5,2147483647},35{5,2147483647}" />
                                     </Group.Children>
                                     <Group.Click>
                                         <CommandNavigate Screen="/Purchase tickets.screen" Created="11/02/2017 08:21:21" Id="9bff487b-491d-4679-ac0f-e3ed7844c2f5">
@@ -178,9 +181,33 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="6aeeeef4-7b37-4016-b4b7-20bc65244e9d" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
-                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="dff126ff-e01f-4074-a75d-eea949712688" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="4a291680-a041-48b4-a0e0-9f9c645db83c" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
-                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="d1fb7aee-5c68-4e84-ad08-ca5273058ce9" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="dff126ff-e01f-4074-a75d-eea949712688" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/login page.screen" Created="11/03/2017 12:20:09" Id="b4a714a3-8b7f-4817-994b-64fcb71091a0">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="4a291680-a041-48b4-a0e0-9f9c645db83c" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:19:33" Id="8624992a-3399-44ea-a71a-8bd795137b17">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
+                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="d1fb7aee-5c68-4e84-ad08-ca5273058ce9" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/register page.screen" Created="11/03/2017 12:19:52" Id="89f562a7-b674-4830-9151-fd0b6ef2e48f">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
                                         <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="a1c3874c-a3a5-42ca-819c-2007773c4dd4" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="7642817d-01c1-4b4f-87c9-ad34c220719a" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>

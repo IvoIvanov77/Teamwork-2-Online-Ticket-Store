@@ -85,7 +85,7 @@
                             <Add.Item>
                                 <Tabs FontSize="24" Id="b799732d-a7cd-4355-b658-6e22f9f5f143" Panel.Bounds="38,143,1302{5,2147483647},474{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Step 1" Id="285631fe-62ad-4e7b-8b58-77556b89e5f2">
+                                        <TabItem Header="Step 1" IsSelected="True" Id="285631fe-62ad-4e7b-8b58-77556b89e5f2">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="2b02a79b-7911-4868-9d43-07898da90e08">
                                                     <Container.Children>
@@ -130,7 +130,7 @@
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Step 3" IsSelected="True" Id="eec39caa-58e6-4d1e-9e69-9b0e763628bc">
+                                        <TabItem Header="Step 3" Id="eec39caa-58e6-4d1e-9e69-9b0e763628bc">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="a5ea0517-085c-4c1d-ae19-0c92405c996f">
                                                     <Container.Children>
@@ -138,14 +138,14 @@
                                                         <Rectangle CornerRadius="20" Id="7ce4798c-1a42-46eb-973a-dd96b714ce05" Panel.Bounds="41,70,545{5,2147483647},317{5,2147483647}" />
                                                         <Rectangle CornerRadius="20" Id="74a49bd6-b054-4ce0-9b02-2747d1f54201" Panel.Bounds="710,70,545{5,2147483647},317{5,2147483647}" />
                                                         <Label RichText="PayPal" FontSize="21" FontFamily="Open Sans" Id="e4ce1e27-d573-4847-9628-a624e337f0ec" Panel.Bounds="281,82,5*{5,2147483647},5*{5,2147483647}" />
-                                                        <Label RichText="Use youre paypal acount:" FontSize="18" FontFamily="Open Sans" Id="fcea4a28-c8c1-4e5f-8dc5-d081c6829ad6" Panel.Bounds="60,211,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Use your paypal acount:" FontSize="18" FontFamily="Open Sans" Id="fcea4a28-c8c1-4e5f-8dc5-d081c6829ad6" Panel.Bounds="60,211,5*{5,2147483647},5*{5,2147483647}" />
                                                         <Label RichText="Bank Transaction" FontSize="21" FontFamily="Open Sans" Id="5a930d13-7893-4c9c-ad76-1236010be4c3" Panel.Bounds="897,82,5*{5,2147483647},5*{5,2147483647}" />
                                                         <Icon CatalogId="fa-cc-paypal" Id="2545dd0b-03b9-4791-bbc7-3e8ebc270a65" Panel.Bounds="322,156,125{5,2147483647},125{5,2147483647}">
                                                             <Icon.Click>
                                                                 <CommandOpenUrl Url="http://paypal.com" Created="11/03/2017 09:33:47" Id="b08cd88d-2e9c-4327-bc66-eedb7061ff92" />
                                                             </Icon.Click>
                                                         </Icon>
-                                                        <Label RichText="Ex. Date:" FontSize="18" FontFamily="Open Sans" Id="f0f99ca9-9ecd-469d-90aa-ed472d295371" Panel.Bounds="830,221,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Exp. Date:" FontSize="18" FontFamily="Open Sans" Id="f0f99ca9-9ecd-469d-90aa-ed472d295371" Panel.Bounds="830,221,5*{5,2147483647},5*{5,2147483647}" />
                                                         <Label RichText="Card Number:" FontSize="18" FontFamily="Open Sans" Id="475bf9b6-d472-49d2-8c33-ed875c108762" Panel.Bounds="830,173,5*{5,2147483647},5*{5,2147483647}" />
                                                         <TextBox FontSize="21" FontFamily="Open Sans" Id="dfa2c6af-c04a-4a0d-942f-358bedcf6ec0" Panel.Bounds="1011,118,120{5,2147483647},5*{5,2147483647}" />
                                                         <TextBox FontSize="21" FontFamily="Open Sans" Id="2383173c-8a78-4375-afe7-36a92a06cf3c" Panel.Bounds="1012,207,120{5,2147483647},5*{5,2147483647}" />

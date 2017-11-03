@@ -319,9 +319,33 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="e49666f6-5cfe-4812-acb3-030191ac92f3" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
-                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="f89e6f4c-4346-419c-92be-b7a7eff45b1c" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="c08549fe-cb90-43f0-96fd-cfa30af4eaf7" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
-                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="6c9e860b-8ccb-4a2c-9d2a-c385882f1bee" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="f89e6f4c-4346-419c-92be-b7a7eff45b1c" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/login page.screen" Created="11/03/2017 12:31:06" Id="3912b9f4-9f19-4cc6-9a15-c97bec2abc57">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="c08549fe-cb90-43f0-96fd-cfa30af4eaf7" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:30:29" Id="ac3833f9-0a61-44a4-b9a7-d9a26d764616">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
+                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="6c9e860b-8ccb-4a2c-9d2a-c385882f1bee" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/register page.screen" Created="11/03/2017 12:30:42" Id="1739cddb-c72d-4c30-8df7-365dac8cefb1">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
                                         <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="31afd03e-fbbd-4975-8ae6-2e8e50b5f935" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="9f3d9e88-ec39-4635-83e1-b3543612aa38" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>

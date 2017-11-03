@@ -191,8 +191,24 @@
                                 <Group GroupName="Group" Id="1c0a7cc8-13d6-4a49-bbcb-e931faac12b2" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
                                         <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="dbbd47a0-e2f2-499e-bcdc-494fe1c96135" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
-                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="96cb0778-1443-4cd5-bd4c-f7ca30f47703" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="740116c8-5509-41ef-a70d-1ecd948bbd8f" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="96cb0778-1443-4cd5-bd4c-f7ca30f47703" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:35:16" Id="012c2599-ac89-4de4-bb84-5b37ada9637a">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="740116c8-5509-41ef-a70d-1ecd948bbd8f" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:35:04" Id="1f5f698c-b1fb-48e6-8ad3-6cc1da8e87eb">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
                                         <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="db5dc0fc-8c1e-422b-8f00-1eedc8374587" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="4090f41c-9eb3-48c4-b818-d6834a4ef5fc" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>

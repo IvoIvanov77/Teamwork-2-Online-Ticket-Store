@@ -75,17 +75,13 @@
                                                 </CommandNavigate>
                                             </Title.Click>
                                         </Title>
-                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="73e30f0f-a079-4165-8491-0ffbf6486335" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}">
-                                            <Label.Click>
-                                                <CommandSwitchTo SceneId="f82ffb38-6567-4351-9e16-021ac437a25a" Created="11/02/2017 09:06:50" Id="a7e3ed80-5ee9-4a9f-8305-b1a1f259b10b" />
-                                            </Label.Click>
-                                        </Label>
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="73e30f0f-a079-4165-8491-0ffbf6486335" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="a16ee435-f3eb-4b2e-8d59-6a5c65605841" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>
                                 </Group>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="f34891b8-8a12-4b5e-a234-75f96baa5855" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
+                        <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
                             <Add.Item>
                                 <Group GroupName="Group" Id="ece5bba6-d7f4-4c73-966b-0f75c1459a8c" Name="Purches Header" Panel.Bounds="98,151,0*,0*">
                                     <Group.Children>
@@ -217,7 +213,7 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Tapped/Clicked EN" StateGroup="c2c259e1-2fdb-4c0d-be56-33c4e506e177" ParentScene="c2c259e1-2fdb-4c0d-be56-33c4e506e177" Created="11/02/2017 09:06:50" Id="f82ffb38-6567-4351-9e16-021ac437a25a">
+        <Scene Title="Disconnected State" StateGroup="c2c259e1-2fdb-4c0d-be56-33c4e506e177" ParentScene="c2c259e1-2fdb-4c0d-be56-33c4e506e177" Created="11/02/2017 09:06:50" Id="f82ffb38-6567-4351-9e16-021ac437a25a">
             <Scene.KeyFrames>
                 <KeyFrame Id="aba9b8f4-a3db-47a1-aa1e-0f01e5fe262b">
                     <KeyFrame.Operations>

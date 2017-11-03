@@ -57,8 +57,24 @@
                                 <Group GroupName="Group" Id="a47978d1-5734-493b-9d09-bfb9a6d02dde" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
                                         <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="b42647c3-c8f5-47a1-b5fc-7e9f6aa5a5b7" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
-                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="e906580b-0cdd-4d25-8946-f68cf55007ff" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="cf469cfe-5538-49d8-a1a2-58d86df4987b" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="e906580b-0cdd-4d25-8946-f68cf55007ff" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:33:00" Id="0d4e79a4-263d-4ddc-b10c-a2c512a3499c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="cf469cfe-5538-49d8-a1a2-58d86df4987b" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:32:43" Id="4ee284b9-8611-4f69-81c3-d71d18d4cf9a">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
                                         <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="0b4cd699-7696-4df2-88f9-8dbfabfcee0d" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="0e80c562-f949-4a9c-acb3-a098dde95fc4" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>
@@ -69,7 +85,7 @@
                             <Add.Item>
                                 <Tabs FontSize="36" Id="bb09819c-dcb9-4629-81a2-753bef4db887" Panel.Bounds="40,139,1294{5,2147483647},494{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Profile Information" Id="dad742a4-9893-40e5-8837-60328651324c" Viewbox.ContentWidth="1298" Viewbox.ContentHeight="511">
+                                        <TabItem Header="Profile Information" IsSelected="True" Id="dad742a4-9893-40e5-8837-60328651324c" Viewbox.ContentWidth="1298" Viewbox.ContentHeight="511">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="3ff7e5da-d7b7-4d68-bf35-2c290e44e4a3">
                                                     <Container.Children>
@@ -117,7 +133,7 @@
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Payment Information" IsSelected="True" Id="e92348e1-76d4-4a64-a2fe-d85a89d78a0e">
+                                        <TabItem Header="Payment Information" Id="e92348e1-76d4-4a64-a2fe-d85a89d78a0e">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="5990c806-40b4-4137-b548-2640e7962585">
                                                     <Container.Children>

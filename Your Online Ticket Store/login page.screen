@@ -67,8 +67,24 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="1ef846cd-2696-4508-ab11-a81be58904a4" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
-                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="8abb2b29-a9f1-4903-85a3-235dd89f0196" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="7170f1be-d326-4fb4-8cd7-b06e170a0d71" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="8abb2b29-a9f1-4903-85a3-235dd89f0196" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}">
+                                            <Link.Click>
+                                                <CommandNavigate Screen="/login page.screen" Created="11/03/2017 12:23:42" Id="7dd7871d-ac9b-4fbb-afcb-59a70743427e">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Link.Click>
+                                        </Link>
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="7170f1be-d326-4fb4-8cd7-b06e170a0d71" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:23:00" Id="9f0b9489-87c1-4cc7-898a-3fd7eecbcc5a">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
                                         <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="2d3b6ed7-b72e-4d9e-a667-1e719057c3c6" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}">
                                             <Link.Click>
                                                 <CommandNavigate Screen="/register page.screen" Created="10/31/2017 19:10:13" Id="1e79c4a7-66b8-4421-963a-ed49c0e1ec57">
