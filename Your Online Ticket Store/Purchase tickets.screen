@@ -112,7 +112,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="45e0cf22-dece-4919-875b-8776877ecfb4">
                             <Add.Item>
-                                <Tabs FontSize="21" Id="5e74810f-9a40-426b-8407-5ce0773ed191" Panel.Bounds="113,376,920{5,2147483647},264{5,2147483647}">
+                                <Tabs FontSize="21" Id="5e74810f-9a40-426b-8407-5ce0773ed191" Panel.Bounds="116,367,920{5,2147483647},264{5,2147483647}">
                                     <Tabs.Items>
                                         <TabItem Header="Избор на място" IsSelected="True" Id="c38eb512-83dd-4be8-830a-23bcaa88db28" Viewbox.ContentHeight="681">
                                             <TabItem.Content>

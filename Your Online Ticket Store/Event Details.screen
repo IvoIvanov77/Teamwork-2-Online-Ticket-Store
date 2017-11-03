@@ -25,49 +25,10 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
-                                <Title RichText="Your online ticket store!" FontSize="48" Id="c1877f22-ad97-4722-9225-07ff73352d44" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}">
-                                    <Title.Click>
-                                        <CommandNavigate Screen="/Home Page.screen" Created="11/01/2017 14:25:32" Id="9630926f-510d-4e4e-9d68-86c3c1fbea7b">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Type="Push" Duration="300" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Title.Click>
-                                </Title>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="4877b4cd-6191-4874-a413-20630af43bb4" Panel.Bounds="1256,35,5*{5,2147483647},5*{5,2147483647}">
-                                    <Link.Click>
-                                        <CommandNavigate Screen="/login page.screen" Created="11/01/2017 14:26:13" Id="00302be0-73b4-403c-bc01-0cb32627f489">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Type="Push" Duration="300" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Link.Click>
-                                </Link>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
-                                <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="6fcbf6eb-ec02-4349-94b9-092ce2285eb1" Panel.Bounds="1160,35,5*{5,2147483647},5*{5,2147483647}">
-                                    <Link.Click>
-                                        <CommandNavigate Screen="/register page.screen" Created="11/01/2017 14:25:56" Id="f66da269-5576-4c28-aa88-6144ebc14071">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Type="Push" Duration="300" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Link.Click>
-                                </Link>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
-                            <Add.Item>
                                 <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="8c62c9d8-b07e-4c9b-bbd6-6135cb7ab512" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="b77c4759-41d7-4d20-b2a0-9b236cafa6e1" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
                                 <Group GroupName="Group" Id="35bd59ef-3734-473e-8e00-be967f7065ce" Panel.Bounds="247,694,0*,0*">
                                     <Group.Children>
@@ -79,7 +40,7 @@
                                 </Group>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="0b9d05d4-2463-40e3-8dbd-d617db3f70ee" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
                                 <Group GroupName="Group" Id="a252e63b-314a-4d20-8c2d-d5d382f6d37a" Panel.Bounds="1155,694,0*,0*">
                                     <Group.Children>
@@ -96,7 +57,7 @@
                                 <Title RichText="Some Event Name" FontSize="40" FontFamily="Open Sans" Id="b2ebad07-ecd8-48b2-a882-64d0eab07abe" Panel.Bounds="512,142,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="c1877f22-ad97-4722-9225-07ff73352d44" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                        <Add Property="Panel.Children" Before="8c62c9d8-b07e-4c9b-bbd6-6135cb7ab512" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
                                 <Rectangle CornerRadius="20" Id="e299c078-fb11-442b-8217-629c7b755a22" Panel.Bounds="35,124,1296{5,2147483647},530{5,2147483647}" />
                             </Add.Item>
@@ -211,6 +172,19 @@
                         <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
                             <Add.Item>
                                 <Icon CatalogId="fa-money" Id="c6ad0ac8-2382-4a17-8f67-b81b6d04599d" Panel.Bounds="753,521,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9331dc03-520a-4a23-ba49-34b5467feca2">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="6aeeeef4-7b37-4016-b4b7-20bc65244e9d" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="dff126ff-e01f-4074-a75d-eea949712688" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="4a291680-a041-48b4-a0e0-9f9c645db83c" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="d1fb7aee-5c68-4e84-ad08-ca5273058ce9" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="a1c3874c-a3a5-42ca-819c-2007773c4dd4" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
+                                        <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="7642817d-01c1-4b4f-87c9-ad34c220719a" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

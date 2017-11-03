@@ -25,16 +25,6 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
                             <Add.Item>
-                                <Title RichText="Your online ticket store!" FontSize="48" Id="db8d0b86-12fe-48db-84f2-9535be03349f" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
-                                <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="ef4056dc-f184-48b2-80a3-9a197fe1d918" Panel.Bounds="1246,35,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
                                 <Tabs Id="8a60ea98-7fed-46a3-91eb-b670770cd897" Panel.Bounds="35,196,1296{5,2147483647},458{5,2147483647}">
                                     <Tabs.Items>
                                         <TabItem Header="Concerts" IsSelected="True" Id="f2ca6d7b-aa50-4a25-9aab-40902dc020b3">
@@ -173,11 +163,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
                             <Add.Item>
-                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;You are logged as, Username&lt;/Run&gt;" FontFamily="Open Sans" Id="7e0979d0-7af2-4221-969b-c5e180097b2c" Panel.Bounds="976,35,259{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
                                 <Button Text="Edit" FontFamily="Open Sans" Id="aa1a2ee7-12af-4b3b-9c86-3afd91499f10" Panel.Bounds="1130,374,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -199,6 +184,19 @@
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
                             <Add.Item>
                                 <Button Text="Create Event" FontFamily="Open Sans" Id="58c1d637-d1a7-4350-a489-c50bda8104aa" Panel.Bounds="1159,237,120{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="1c0a7cc8-13d6-4a49-bbcb-e931faac12b2" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="dbbd47a0-e2f2-499e-bcdc-494fe1c96135" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="96cb0778-1443-4cd5-bd4c-f7ca30f47703" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="740116c8-5509-41ef-a70d-1ecd948bbd8f" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="db5dc0fc-8c1e-422b-8f00-1eedc8374587" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
+                                        <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="4090f41c-9eb3-48c4-b818-d6834a4ef5fc" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

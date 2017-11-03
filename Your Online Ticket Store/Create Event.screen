@@ -25,16 +25,6 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
                             <Add.Item>
-                                <Title RichText="Your online ticket store!" FontSize="48" Id="6e04872a-d26f-4453-9b20-e1fd9547f785" Panel.Bounds="35,15,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
-                            <Add.Item>
-                                <Link Text="logout" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="273abaf6-8a6f-46df-a2c4-a5fc067c6107" Panel.Bounds="1246,35,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
-                            <Add.Item>
                                 <TextArea Text="&#xA;         Help &amp; Support&#xA;         Contact Us&#xA;         Pricing&#xA;         About&#xA;         Careers" Opacity="0.6" Id="952a420d-8c79-457e-874c-d93583d08c3c" Panel.Bounds="0,653,1366{5,2147483647},115{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -76,16 +66,6 @@
                         <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
                             <Add.Item>
                                 <Icon CatalogId="fa-cc-paypal" Id="2568983d-0886-4320-9893-57082cbf36f5" Panel.Bounds="1155,694,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
-                            <Add.Item>
-                                <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;You are logged as Username&lt;/Run&gt;" FontFamily="Open Sans" Id="f3d46cf1-361e-4b33-b634-23b52968af66" Panel.Bounds="979,35,259{5,2147483647},0*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="6e04872a-d26f-4453-9b20-e1fd9547f785" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
-                            <Add.Item>
-                                <Rectangle CornerRadius="20" Opacity="0.2" Id="2b281b32-fe3a-43d2-a447-a9ceb59abb2e" ControlExtensions.Locked="True" Panel.Bounds="35,124,1296{5,2147483647},530{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
@@ -303,6 +283,19 @@
                         <Add Property="Panel.Children" Before="06b03c7e-c4b7-4e39-ab2b-7f52ad1791a1" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
                             <Add.Item>
                                 <Label RichText="Tickets Price" FontSize="24" FontFamily="Open Sans" Id="6fd1df36-e474-46f9-a327-8694580c750f" Panel.Bounds="918,197,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="3122a63a-3164-4b76-baa2-c48a3743e25d">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="383e86be-fcfe-4218-b584-ea0b4d0ff77d" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="login" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Login" Id="2b75d5ef-5238-4334-883d-f2537e8f3267" Name="login" Panel.Bounds="1150,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="524a2fb4-b84e-4073-b49b-15c55c5386cd" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}" />
+                                        <Link Text="register" FontSize="18" FontStyle="Normal|Underline" Opacity="0.6" Tooltip="Register" Id="feeaccf4-2e58-46f4-bb74-408b1f8fd564" Panel.Bounds="1068,51,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="9a8180a3-fcd9-428a-9100-f7411b1617af" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
+                                        <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="ebf612aa-0b95-466d-9fb7-fe8e5fb404b4" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

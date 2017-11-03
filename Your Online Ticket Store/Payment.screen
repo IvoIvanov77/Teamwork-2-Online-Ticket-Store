@@ -85,11 +85,28 @@
                             <Add.Item>
                                 <Tabs FontSize="24" Id="b799732d-a7cd-4355-b658-6e22f9f5f143" Panel.Bounds="38,143,1302{5,2147483647},474{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Step 1" IsSelected="True" Id="285631fe-62ad-4e7b-8b58-77556b89e5f2">
+                                        <TabItem Header="Step 1" Id="285631fe-62ad-4e7b-8b58-77556b89e5f2">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="2b02a79b-7911-4868-9d43-07898da90e08">
                                                     <Container.Children>
                                                         <Label RichText="Your purchase" FontSize="36" FontFamily="Open Sans" Id="476d4dfb-a1fd-4dbe-97ab-afafe5c4e55a" Panel.Bounds="522,19,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Group GroupName="Group" Id="a091525c-c4c1-4922-aae6-e5c22d1eeed1" Name="Purches Header" Panel.Bounds="63,116,0*,0*">
+                                                            <Group.Children>
+                                                                <Label RichText="AПР&#xD;&#xA; 13&#xD;&#xA;" FontSize="48" FontFamily="Open Sans" Id="18546aa0-70be-4c4a-b45d-3a79ae3836ce" Panel.Bounds="649,66,97{5,2147483647},133{5,2147483647}" />
+                                                                <Label RichText="20:00, &#xD;&#xA;петък, 13. апр 2018" FontSize="48" FontFamily="Open Sans" Id="f0d22ffc-803e-47fd-b0e9-8c1ecb83d618" Panel.Bounds="870,11,302{5,2147483647},217{5,2147483647}" />
+                                                                <Label RichText="2 Билета" FontSize="48" FontFamily="Open Sans" Id="82ebe393-5cef-4adb-9f04-d93b3a0d1f76" Panel.Bounds="7,58,170{5,2147483647},133{5,2147483647}" />
+                                                                <Label RichText="Партер - 45 лв.&#xD;&#xA; 45,00 BGN" FontSize="48" FontFamily="Open Sans" Id="363f910f-2d08-4354-a7bc-df724a68daa1" Panel.Bounds="246,58,145*{5,2147483647},123{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Button Text="Change" CornerRadius="20" FontSize="36" FontFamily="Open Sans" Id="a99781bc-20a7-4e83-8d8f-cb86897507be" Panel.Bounds="508,329,285{5,2147483647},50{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Purchase tickets.screen" Created="11/03/2017 09:23:23" Id="361230fa-3ad4-4136-a00f-a0ab6717998e">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
@@ -98,14 +115,55 @@
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="d477284d-8f7b-4f83-a901-3dee595cd1a0">
                                                     <Container.Children>
-                                                        <Label RichText="Your ticket" FontSize="36" FontFamily="Open Sans" Id="a00e38ae-65d4-4cff-b4c9-965645f33ebc" Panel.Bounds="593,209,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Your ticket" FontSize="36" FontFamily="Open Sans" Id="a00e38ae-65d4-4cff-b4c9-965645f33ebc" Panel.Bounds="555,25,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Group GroupName="Group" Id="9d91df00-a610-4df5-9300-6e2aff136daa" Name="Purches Header" Panel.Bounds="33,120,0*,0*">
+                                                            <Group.Children>
+                                                                <Rectangle CornerRadius="20" Id="ebdb94dd-28a4-45bf-ae86-2eb6c69c26e3" Panel.Bounds="-10,-36,1269{5,2147483647},328{5,2147483647}" />
+                                                                <Icon CatalogId="fa-qrcode" Id="0e8e77b5-31b3-4fae-9f35-50931584f699" Panel.Bounds="986,0,256{5,2147483647},256{5,2147483647}" />
+                                                                <Label RichText="20:00, &#xD;&#xA;петък, 13. апр 2018" FontSize="36" FontFamily="Open Sans" Id="d0bbec93-66cd-4b50-84d7-08057c376e96" Panel.Bounds="175,26,367{5,2147483647},100{5,2147483647}" />
+                                                                <Label RichText="Партер&#xD;&#xA;Сектор: 5&#xD;&#xA;Ред: 3&#xD;&#xA;Място: 9" FontSize="36" FontFamily="Open Sans" Id="0e7f2741-13d7-4915-8ce9-81fe40e5a1c3" Panel.Bounds="585,18,360{5,2147483647},220{5,2147483647}" />
+                                                                <Label RichText="ГОРАН БРЕГОВИЧ" FontSize="48" FontFamily="Open Sans" Id="7bc85dd6-8c60-4eba-ad17-6c483ccb6a26" Panel.Bounds="29,171,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Image SourcePath="assets/ojbg_200_200.jpg" Id="febe409e-a28f-4d4a-9f4e-e4f855f09c4f" Panel.Bounds="9,-16,142{5,2147483647},143{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Step 3" Id="eec39caa-58e6-4d1e-9e69-9b0e763628bc">
+                                        <TabItem Header="Step 3" IsSelected="True" Id="eec39caa-58e6-4d1e-9e69-9b0e763628bc">
                                             <TabItem.Content>
-                                                <Container ClipToContainer="True" Id="a5ea0517-085c-4c1d-ae19-0c92405c996f" />
+                                                <Container ClipToContainer="True" Id="a5ea0517-085c-4c1d-ae19-0c92405c996f">
+                                                    <Container.Children>
+                                                        <Label RichText="Payment" FontSize="36" FontFamily="Open Sans" Id="efaffbaf-c619-474a-ae6e-2a898e8c9fa4" Panel.Bounds="575,20,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Rectangle CornerRadius="20" Id="7ce4798c-1a42-46eb-973a-dd96b714ce05" Panel.Bounds="41,70,545{5,2147483647},317{5,2147483647}" />
+                                                        <Rectangle CornerRadius="20" Id="74a49bd6-b054-4ce0-9b02-2747d1f54201" Panel.Bounds="710,70,545{5,2147483647},317{5,2147483647}" />
+                                                        <Label RichText="PayPal" FontSize="21" FontFamily="Open Sans" Id="e4ce1e27-d573-4847-9628-a624e337f0ec" Panel.Bounds="281,82,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Use youre paypal acount:" FontSize="18" FontFamily="Open Sans" Id="fcea4a28-c8c1-4e5f-8dc5-d081c6829ad6" Panel.Bounds="60,211,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Bank Transaction" FontSize="21" FontFamily="Open Sans" Id="5a930d13-7893-4c9c-ad76-1236010be4c3" Panel.Bounds="897,82,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Icon CatalogId="fa-cc-paypal" Id="2545dd0b-03b9-4791-bbc7-3e8ebc270a65" Panel.Bounds="322,156,125{5,2147483647},125{5,2147483647}">
+                                                            <Icon.Click>
+                                                                <CommandOpenUrl Url="http://paypal.com" Created="11/03/2017 09:33:47" Id="b08cd88d-2e9c-4327-bc66-eedb7061ff92" />
+                                                            </Icon.Click>
+                                                        </Icon>
+                                                        <Label RichText="Ex. Date:" FontSize="18" FontFamily="Open Sans" Id="f0f99ca9-9ecd-469d-90aa-ed472d295371" Panel.Bounds="830,221,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Card Number:" FontSize="18" FontFamily="Open Sans" Id="475bf9b6-d472-49d2-8c33-ed875c108762" Panel.Bounds="830,173,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="dfa2c6af-c04a-4a0d-942f-358bedcf6ec0" Panel.Bounds="1011,118,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="2383173c-8a78-4375-afe7-36a92a06cf3c" Panel.Bounds="1012,207,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="412bf5e8-ee59-4517-a5bc-7e1f3bcdb268" Panel.Bounds="1011,162,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Sec. Code" FontSize="18" FontFamily="Open Sans" Id="76eabe28-3b03-4f8a-ba2b-d799cd176b9b" Panel.Bounds="829,268,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontSize="21" FontFamily="Open Sans" Id="e56fbb81-ced3-4911-afe3-5bb32d16c6b2" Panel.Bounds="1011,251,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Type of card:" FontSize="18" FontFamily="Open Sans" Id="49f3176c-04fc-4cb0-b6ae-26ae00899797" Panel.Bounds="830,131,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Confirm" CornerRadius="20" FontSize="21" FontFamily="Open Sans" Id="1aaf09b7-9456-4534-9afd-e803b57e682b" Panel.Bounds="915,313,137{5,2147483647},61{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 09:41:46" Id="1aa227ae-7fad-4b3f-ae13-5d15c8bf53b7">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                    </Container.Children>
+                                                </Container>
                                             </TabItem.Content>
                                         </TabItem>
                                     </Tabs.Items>
