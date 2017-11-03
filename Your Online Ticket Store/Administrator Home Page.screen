@@ -163,39 +163,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
                             <Add.Item>
-                                <Button Text="Edit" FontFamily="Open Sans" Id="aa1a2ee7-12af-4b3b-9c86-3afd91499f10" Panel.Bounds="1130,374,80{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
-                                <Button Text="Delete" FontFamily="Open Sans" Id="8c7aab17-f465-4bba-aca9-8ea00ea29a79" Panel.Bounds="1224,374,80{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
-                                <Button Text="Edit" FontFamily="Open Sans" Id="f0573fcb-3c05-4d9c-b51f-f6ebfdcacff3" Panel.Bounds="1130,512,80{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
-                                <Button Text="Delete" FontFamily="Open Sans" Id="1bdf126f-d65b-4623-8720-2c3665680cce" Panel.Bounds="1224,512,80{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
-                                <Button Text="Create Event" FontFamily="Open Sans" Id="58c1d637-d1a7-4350-a489-c50bda8104aa" Panel.Bounds="1159,237,120{5,2147483647},35{5,2147483647}">
-                                    <Button.Click>
-                                        <CommandNavigate Screen="/Create Event.screen" Created="11/03/2017 12:46:41" Id="4e072376-2d05-46df-bf68-4a1e14c40594">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Type="Push" Duration="300" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Button.Click>
-                                </Button>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
-                            <Add.Item>
                                 <Group GroupName="Group" Id="1c0a7cc8-13d6-4a49-bbcb-e931faac12b2" Name="Nav Bar" Panel.Bounds="35,15,0*,0*">
                                     <Group.Children>
                                         <Label RichText="Hello, Username" FontSize="18" FontFamily="Open Sans" Id="dbbd47a0-e2f2-499e-bcdc-494fe1c96135" Panel.Bounds="952,53,148{5,2147483647},5*{5,2147483647}" />
@@ -210,9 +177,9 @@
                                         </Link>
                                         <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt; YOTS!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Your online ticket store!&lt;/Run&gt;" FontSize="48" Id="740116c8-5509-41ef-a70d-1ecd948bbd8f" Panel.Bounds="0,0,205{5,2147483647},123{5,2147483647}">
                                             <Title.Click>
-                                                <CommandNavigate Screen="/Home Page.screen" Created="11/03/2017 12:35:04" Id="1f5f698c-b1fb-48e6-8ad3-6cc1da8e87eb">
+                                                <CommandNavigate Screen="/Administrator Home Page.screen" Created="11/03/2017 13:34:10" Id="6226bca1-4046-4d2a-97d1-9c6c11b67a23">
                                                     <CommandNavigate.Transition>
-                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                        <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </Title.Click>
@@ -220,6 +187,72 @@
                                         <Label RichText="EN" FontSize="24" FontFamily="Open Sans" Id="db5dc0fc-8c1e-422b-8f00-1eedc8374587" Panel.Bounds="1216,42,36{5,2147483647},36{5,2147483647}" />
                                         <Image SourcePath="assets/if_United Kingdom(Great Britain)_16014.png" Id="4090f41c-9eb3-48c4-b818-d6834a4ef5fc" Panel.Bounds="1257,45,32{5,2147483647},31{5,2147483647}" />
                                     </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="81d7f774-72fe-42d2-a6cd-2335582e4464" Panel.Bounds="1196,380,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Delete" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="12" FontFamily="Open Sans" FontStyle="Bold" Id="95ddd96b-922b-418e-9915-37045bbf7974" Panel.Bounds="24,0,84{5,2147483647},24{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Delete Page.screen" Created="11/03/2017 13:28:13" Id="e1c1c937-e37b-475e-9c3b-c70f3a282e8f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="86bf47cf-80b8-41cb-844b-939e9faf5b82" Panel.Bounds="1106,380,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Edit" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="12" FontFamily="Open Sans" FontStyle="Bold" Id="4b3ecd33-fd37-42b7-badc-112508f94f6b" Panel.Bounds="24,0,84{5,2147483647},24{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="130a713d-aa5a-47e9-82e7-efedf71a8f74" Panel.Bounds="1196,517,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Delete" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="12" FontFamily="Open Sans" FontStyle="Bold" Id="39ef4b25-d918-431b-a0fc-45256b9fde7c" Panel.Bounds="24,0,84{5,2147483647},24{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Delete Page.screen" Created="11/03/2017 13:28:26" Id="1297c21e-215a-4ca0-94ad-6a68dc8d2972">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="5ccdb57b-7692-47b9-9f15-b18d158ac94f" Panel.Bounds="1106,517,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Edit" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="12" FontFamily="Open Sans" FontStyle="Bold" Id="9aa3f489-4dbb-492e-959a-40e341d56917" Panel.Bounds="24,0,84{5,2147483647},24{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bcfbb322-a2f8-4ce7-abc9-3dfb8c0fb51f">
+                            <Add.Item>
+                                <Group GroupName="Group" Tooltip="Buy Tickets" Id="5ac207b0-babb-4d42-ad2e-4f6d432ce227" Panel.Bounds="1143,238,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Create Event" Background="#FF8AB1D3" CornerRadius="5" BorderThickness="3" FontSize="14" FontFamily="Open Sans" FontStyle="Bold" Id="d7f7426f-3840-4ed2-8f7e-c945d3ca96dd" Panel.Bounds="24,0,104{5,2147483647},30{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/Create Event.screen" Created="11/03/2017 13:26:45" Id="5249474e-3c0f-40f0-b341-856ab490ba2e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
