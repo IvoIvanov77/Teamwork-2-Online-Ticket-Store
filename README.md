@@ -26,6 +26,7 @@ Topic: **Requirements and Prototyping.**
 	
   + Dimitur Nikolov: 
   	+	Purchase tickets
+	+ 	Payment screen
 	+	Mange user's profile
 	+	Pages linked actively to the rest of the project
 
