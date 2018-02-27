@@ -1,6 +1,7 @@
 # Online Ticket Store
 
-This is the second assignment in the Teamwork Course @ SoftUni. 
+This is the second assignment in the [Practical Teamwork course]( https://softuni.bg/trainings/1799/practical-teamwork-sept-2017)  @ SoftUni. 
+
 
 Topic: **Requirements and Prototyping.**
 
@@ -36,4 +37,6 @@ Topic: **Requirements and Prototyping.**
 	+	Delete events
 	+	Manage available tickets
 	+	Pages linked actively to the rest of the project
+	
+  ### [Final Project](https://github.com/IvoIvanov77/TravelGuideSoftUniTeamwork) 
 	
